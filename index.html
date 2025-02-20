@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css-sass/style.css">
+</head>
+<body>
+    <section class="showcase">
+        <div class="containerLeft">
+            <h2>Currency Converter</h2>
+            <div class="amount">
+                <label for="amount">Enter Amount</label>
+                <input type="text" id="amountValue">
+            </div>
+            <div class="box">
+                <div class="from">
+                    <select name="from" id="fromValue">
+                        <option value="">From</option>
+                    </select>
+                </div>
+                <div class="icon">
+                    <i class="fa-solid fa-right-left"></i>
+                </div>
+                <div class="to">
+                    <select name="to" id="toValue">
+                        <option value="">To</option>
+                    </select>
+                </div>
+            </div>
+            <p class="conversion">Conversion Value</p>
+            <button class="btn">Get Exchange Rate</button>
+        </div>
+        <div class="containerRight">
+            <h1>Currency Converter App</h1>
+            <p>in HTML, CSS & Javascript</p>
+        </div>
+    </section>
+
+
+    <script src="https://kit.fontawesome.com/a68aad812a.js" crossorigin="anonymous"></script>
+    <script src="./javascript/currency.js"></script>
+    <script src="/javascript/interface.js"></script>
+    <script src="/javascript/app.js"></script>
+</body>
+</html>

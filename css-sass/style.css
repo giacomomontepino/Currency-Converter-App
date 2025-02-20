@@ -1,0 +1,103 @@
+.showcase {
+  background: rgb(136, 114, 248);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin: 80px;
+}
+
+.containerLeft {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background: white;
+  margin: 20px;
+  border: 1px solid rgb(136, 114, 248);
+  border-radius: 10px;
+}
+.containerLeft h2 {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
+.containerLeft .amount {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+.containerLeft .amount label {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.containerLeft .amount input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(136, 114, 248);
+}
+.containerLeft .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 0px 10px 0px 10px;
+}
+.containerLeft .box .from {
+  display: flex;
+}
+.containerLeft .box .from select {
+  height: 30px;
+  border: 1px solid rgb(136, 114, 248);
+  border-radius: 5px;
+}
+.containerLeft .box .to {
+  display: flex;
+}
+.containerLeft .box .to select {
+  height: 30px;
+  border: 1px solid rgb(136, 114, 248);
+  border-radius: 5px;
+}
+.containerLeft .conversion {
+  font-size: 13px;
+  margin: 10px 0px 10px 0px;
+  padding-left: 10px;
+  display: flex;
+  justify-content: center;
+}
+.containerLeft button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(136, 114, 248);
+  background: rgb(136, 114, 248);
+  margin: 12px;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.containerRight {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 20px;
+  color: white;
+  text-align: center;
+}
+.containerRight p {
+  background-color: white;
+  color: rgb(136, 114, 248);
+  padding: 5px;
+  margin-top: 5px;
+  border: 1px solid rgb(136, 114, 248);
+  border-radius: 5px;
+}
+
+* {
+  margin: 0px;
+  padding: 0x;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}/*# sourceMappingURL=style.css.map */

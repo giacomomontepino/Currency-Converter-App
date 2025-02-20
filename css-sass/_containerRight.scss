@@ -1,0 +1,17 @@
+.containerRight{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 20px;
+    color: white;
+    text-align: center;
+
+    p{
+        background-color: white;
+        color: $primary-color;
+        padding: 5px;
+        margin-top: 5px;
+        border: 1px solid $primary-color;
+        border-radius: 5px;
+    }
+}

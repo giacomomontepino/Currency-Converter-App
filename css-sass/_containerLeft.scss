@@ -1,0 +1,81 @@
+.containerLeft{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background: white;
+    margin: 20px;
+    border: 1px solid $primary-color;
+    border-radius: 10px;
+
+    h2{
+        font-size: 20px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .amount{
+        display: flex;
+        flex-direction: column;
+        margin: 15px;
+
+        label{
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        input{
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid $primary-color;
+        }
+    }
+
+    .box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        margin: 0px 10px 0px 10px;
+
+        .from{
+            display: flex;
+
+            select{
+                height: 30px;
+                border: 1px solid $primary-color;
+                border-radius: 5px;
+            }
+        }
+
+        .to{
+            display: flex;
+
+            select{
+                height: 30px;
+                border: 1px solid $primary-color;
+                border-radius: 5px;
+            }
+        }
+    }
+
+    .conversion{
+        font-size: 13px;
+        margin: 10px 0px 10px 0px;
+        padding-left: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    button{
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid $primary-color;
+        background: $primary-color;
+        margin: 12px;
+        color: white;
+        font-size: 12px;
+        cursor: pointer;
+    }
+}
