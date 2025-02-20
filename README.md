@@ -1,4 +1,5 @@
 # Currency Converter App
+![screen dell'applicazione web]("/assets/img/screen.png")
 
 ## Descrizione
 
